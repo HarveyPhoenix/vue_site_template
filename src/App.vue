@@ -3,6 +3,9 @@
     <page-header></page-header>
     <page-main></page-main>
     <page-footer></page-footer>
+    <!--
+    <router-link to="/testdemo">Go Test Demo</router-link>
+    -->
     <img src="./assets/logo.png">
     <router-view/>
   </div>

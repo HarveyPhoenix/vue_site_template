@@ -6,12 +6,14 @@ import router from './router'
 import PageHeader from './components/layout/PageHeader'
 import PageMain from './components/layout/PageMain'
 import PageFooter from './components/layout/PageFooter'
+import MarkdownEditor from './components/MarkdownEditor'
 
 Vue.config.productionTip = false
 
 Vue.component('page-header', PageHeader)
 Vue.component('page-main', PageMain)
 Vue.component('page-footer', PageFooter)
+Vue.component('editor-markdown', MarkdownEditor)
 
 /* eslint-disable no-new */
 new Vue({
