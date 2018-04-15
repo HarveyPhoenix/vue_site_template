@@ -4,7 +4,9 @@
 
 ## Reference
 
-http://getbootstrap.com/docs/4.1/examples/blog/
+http://getbootstrap.com/docs/4.1/examples/
+
+https://github.com/twbs/bootstrap
 
 ## Build Setup
 
