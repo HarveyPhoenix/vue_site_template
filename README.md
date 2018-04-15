@@ -1,6 +1,10 @@
 # vue_site_template
 
-> A Vue.js project
+> A Vue.js template project
+
+## Reference
+
+http://getbootstrap.com/docs/4.1/examples/blog/
 
 ## Build Setup
 
