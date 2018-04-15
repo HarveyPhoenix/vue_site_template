@@ -1,5 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
+    <page-header></page-header>
+    <page-main></page-main>
+    <page-footer></page-footer>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -11,7 +14,8 @@ export default {
 }
 </script>
 
-<style>
+<style >
+@import './styles/bootstrap.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
