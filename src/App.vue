@@ -19,6 +19,7 @@ export default {
 
 <style >
 @import './styles/bootstrap.css';
+@import './styles/Material_Icons.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

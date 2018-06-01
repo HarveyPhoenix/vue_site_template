@@ -80,6 +80,9 @@
         </a>
       </li>
     </ul>
+  <div id="button_test_1">
+    <button v-on:click="greet('hi')">Test-greet</button>
+  </div>
   </div>
 </template>
 
@@ -89,6 +92,14 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  // 在 `methods` 对象中定义方法
+  methods: {
+    greet: function (message) {
+      this.$toasted.global.my_app_error({
+        message: message
+      })
     }
   }
 }
