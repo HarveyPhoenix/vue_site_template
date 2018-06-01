@@ -1,8 +1,7 @@
 FROM node:9.11.1-alpine
 MAINTAINER HarveyHuang <service@68fen.com>
 
-RUN apk add --no-cache nginx && \
-    rm /var/cache/apk/*
+RUN apk add --no-cache nginx
 
 WORKDIR /app
 COPY package.json .
