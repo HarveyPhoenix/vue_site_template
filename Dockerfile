@@ -4,10 +4,10 @@ MAINTAINER HarveyHuang <service@68fen.com>
 RUN apk add --no-cache nginx
 
 WORKDIR /app
-COPY package.json .
+RUN cd /app
+COPY . .
 RUN npm install
 ADD misc/nginx.conf /etc/nginx/nginx.conf
-COPY . .
 RUN npm run build
 COPY dist /usr/share/nginx/html
 EXPOSE 80
