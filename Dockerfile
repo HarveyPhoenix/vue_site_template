@@ -9,6 +9,5 @@ COPY . .
 RUN npm install
 ADD misc/nginx.conf /etc/nginx/nginx.conf
 RUN npm run build
-RUN cp /app/dist/ /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
